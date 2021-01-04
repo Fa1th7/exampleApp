@@ -19,7 +19,7 @@ import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 const BookPage = ({ heading, chapter, image, content, titleOverLay }) => {
   return (
     <ScrollView Style={styles.contanier}>
-      <Image style={styles.pageImage} source={{ uri: image }} />
+      <Image style={styles.pageImage} source={image} />
       <View style={styles.cotentConatiner}>
         <Text style={styles.content}>{content}</Text>
       </View>
